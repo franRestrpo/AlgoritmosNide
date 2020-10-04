@@ -4,6 +4,12 @@ package ArrayList.app.src.main.java.sample;
   This Java ArrayList Example shows how to create an object of Java ArrayList. It also
   shows how to add elements to ArrayList and how get the same from ArrayList.
 */
+/*
+ * Ejemplo de Java ArrayList
+ * Este ejemplo de Java ArrayList muestra cómo crear un objeto de Java ArrayList. 
+ * También muestra cómo agregar elementos a un  ArrayList y cómo obtenerlos del mismo de ArrayList.
+ */
+
 
 import java.util.ArrayList;
 
@@ -20,6 +26,10 @@ public class SimpleArrayListExample {
        of Collection.add method. The specified object is appended at the end
        of the ArrayList.
     */
+       /* Agregue elementos a un Arraylist usando el método booleano add (Object o).
+        * Devuelve verdadero como comportamiento general del método Collection.add. 
+        * El objeto especificado se agrega al final de ArrayList.
+     */
         arrayList.add("1");
         arrayList.add("2");
         arrayList.add("3");
@@ -29,6 +39,10 @@ public class SimpleArrayListExample {
       Object get(int index) returns and element at the specified index in
       the ArrayList
     */
+     /*
+      * Utilice el método get de la clase ArrayList de Java para mostrar elementos de ArrayList.
+      * Object get (int index) devuelve un elemento en el índice especificado en ArrayList
+     */
         System.out.println("Getting elements of ArrayList");
         System.out.println(arrayList.get(0));
         System.out.println(arrayList.get(1));
