@@ -2,8 +2,8 @@ package Calender.app.src.main.java.sample;
 
 
 /*
-  Add or substract days to current date using Java Calendar
-  This example shows how to add or substract days in current date and time values
+  Add or subtract days to current date using Java Calendar
+  This example shows how to add or subtract days in current date and time values
   using Java Calendar class.
 */
 
