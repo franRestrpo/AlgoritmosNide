@@ -23,6 +23,10 @@ public class CompareCharArraysExample {
       It returns true if both arrays are equal. Arrays are considered as equal
       if they contain same elements in same order.
     */
+    /* Para comparar dos matrices de caracteres, utilice el método 
+     * static boolean equals (char array1 [], char array2 []) de la clase Arrays.
+     * Devuelve verdadero si ambas matrices son iguales. Las matrices se consideran 
+     * iguales si contienen los mismos elementos en el mismo orden.*/
 
         boolean blnResult = Arrays.equals(charArray1, charArray2);
         System.out.println("Are two char arrays equal ? : " + blnResult);
@@ -30,6 +34,8 @@ public class CompareCharArraysExample {
     /*
       Please note that two char array references pointing to null are
       considered as equal.
+      
+      Tenga en cuenta que dos referencias de matriz de caracteres que apuntan a nulo se consideran iguales.
     */
 
     }
