@@ -25,6 +25,16 @@ public class CompareFloatArraysExample {
 
       Two float elements are considered as equal if
       new Float(d1).equals(new Float(d2))
+      
+      Para comparar dos matrices flotantes, utilice el método 
+      static boolean equals (float array1 [], float array2 []) 
+      de la clase Arrays.
+      Devuelve verdadero si ambas matrices son iguales. 
+      Las matrices se consideran iguales si contienen los mismos 
+      elementos en el mismo orden.
+
+       Dos elementos flotantes se consideran iguales si
+       new Float (d1) .equals (new Float (d2)).
     */
 
         boolean blnResult = Arrays.equals(floatArray1, floatArray2);
@@ -33,8 +43,12 @@ public class CompareFloatArraysExample {
     /*
       Please note that two float array references pointing to null are
       considered as equal.
-      Also, two NaN values are considerd equal. But 0.0f and -0.0f are
+      Also, two NaN values are considered equal. But 0.0f and -0.0f are
       considered as unequal.
+      Tenga en cuenta que dos referencias de matriz flotante que apuntan 
+      a nulo se consideran iguales.
+      Además, dos valores de NaN se consideran iguales. Pero 0.0f y -0.0f 
+      se consideran desiguales.
     */
 
     }
