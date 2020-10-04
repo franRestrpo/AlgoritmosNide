@@ -23,6 +23,11 @@ public class CompareByteArraysExample {
       It returns true if both arrays are equal. Arrays are considered as equal
       if they contain same elements in same order.
     */
+        /* Para comparar dos matrices de bytes, utilice el método 
+         * static boolean equals(byte array1[], byte array2[]) de la clase Arrays.
+         * Devuelve verdadero si ambas matrices son iguales. Las matrices se 
+         * consideran iguales si contienen los mismos elementos en el mismo orden.
+         * */
 
         boolean blnResult = Arrays.equals(byteArray1, byteArray2);
         System.out.println("Are two byte arrays equal ? : " + blnResult);
@@ -31,6 +36,8 @@ public class CompareByteArraysExample {
       Please note that two byte array references pointing to null are
       considered as equal.
     */
+    /* Tenga en cuenta que dos referencias de matriz de bytes que apuntan 
+     * a nulo se consideran iguales.*/
 
     }
 }

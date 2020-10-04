@@ -4,6 +4,9 @@ package ArrayList.app.src.main.java.sample;
   This Java Example shows how to sort the elements of java ArrayList object using
   Collections.sort method.
 */
+/* Ordenar elementos del ejemplo de Java ArrayList
+ * Este ejemplo de Java muestra cómo ordenar los elementos del objeto java ArrayList usando el método Collections.sort.
+ */
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,6 +29,10 @@ public class SortJavaArrayListExample {
       To sort an ArrayList object, use Collection.sort method. This is a
       static method. It sorts an ArrayList object's elements into ascending order.
     */
+    /*Para ordenar un objeto ArrayList, use el método Collection.sort. Este es 
+     * un método estático. Ordena los elementos de un objeto ArrayList en orden ascendente.
+     */
+     
         Collections.sort(arrayList);
 
         //display elements of ArrayList
